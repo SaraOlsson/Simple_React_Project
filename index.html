@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hello hacker!</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Lato" rel="stylesheet">
+    <!-- <link rel="shortcut icon" type="image/png" href="/favicon.png"/> -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+
+    <!-- ***************************************************************************** -->
+
+    <!--React files-->
+    <script src="https://unpkg.com/react@15/dist/react-with-addons.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/4.2.2/react-router-dom.min.js"></script>
+    
+    <!--Babel, is used to convert jsx to browser-compatible javascript -->
+    <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
+
+    <!--Components-->
+    <script type="text/babel" src="components/App.js"></script> <!-- "main" component-->
+    
+    <script type="text/babel" src="components/pages/Home.js"></script>
+    <script type="text/babel" src="components/pages/404.js"></script>
+    <script type="text/babel" src="components/pages/Missions.js"></script>
+    <script type="text/babel" src="components/pages/MyComponent.js"></script> 
+    <script type="text/babel" src="components/pages/SimplePage.js"></script>  <!-- to learn (page)-->
+    <script type="text/babel" src="components/pages/startComponent.js"></script>  <!-- to learn (arbitrary component) -->
+
+    <script type="text/babel" src="components/sidebars/HomeSidebar.js"></script>
+    <script type="text/babel" src="components/sidebars/SimpleSidebar.js"></script>  <!-- to learn (sidebar)-->
+    
+    <script type="text/babel" src="components/startComponentBasic.js"></script>  <!-- to learn (arbitrary component) -->
+
+    <!-- ***************************************************************************** -->
+
+    <!-- Our"main" component is rendered to the div with id root-->
+    <script type="text/babel">
+        ReactDOM.render(<App/>, document.getElementById('root'));
+    </script>
+
+</head>
+
+<body>
+    <div id="root"></div> <!-- This is where "main" component is rendered to -->
+</body>
+
+</html>
