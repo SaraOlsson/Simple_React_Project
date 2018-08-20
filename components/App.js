@@ -33,7 +33,7 @@ class App extends Component {
                     - Add a Link in the div above, with the desired url, eg:  <Link to="/myPage"> My testpage </Link>
                     - Add a Route component in the div with className="main" in this file, with same url as in the Link. 
                     For the component parameter, you need a React component. Tips: create a new js-file by copying
-                    startComponent.js or startComponentBasic.js to get a starting point. Just remember to change the 
+                    SimplePage.js to get a starting point. Just remember to change the 
                     name of the component and the filename. 
                     - In index.html, add your new js-file to be able to use your component. 
 
